@@ -1,0 +1,336 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0 10px;
+  color: gainsboro;
+  text-transform: uppercase;
+}
+
+.navs_container{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_item{
+    text-transform: capitalize;
+    color: gray;
+    padding: 0 10px;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.banner_container{
+    width: 100%;
+    height: 450px;
+    background-image: url('./assets/pexels-dimitry-anikin-5044497.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.services_container{
+    height: 400px;
+    background-color: rgb(165, 211, 211);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.sub_heading{
+    text-transform: uppercase;
+   color:gray; 
+   margin-bottom: 10px;
+
+}
+.heading{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.description{
+    color: grey;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book_button{
+    
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius:5px ;
+}
+
+.image {
+  text-align: center;
+}
+.image2 {
+  display: flex;
+  flex-direction: row;
+}
+.image3 {
+  text-align: center;
+}
+
+
+
+.image-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.services {
+  text-align: center;
+  margin: 40px;
+  
+}
+
+.contain {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+}
+
+.services1 {
+  text-align: left;
+  padding: 30px;
+  margin: 20px;
+}
+.service_heading{
+    text-align: left;
+    margin: 10px;   
+    text-transform: capitalize;
+
+}
+.services_description{
+    color: grey;
+    text-align:left;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.services2 {
+  text-align: left;
+  padding: 30px;
+  margin: 20px;
+}
+.services3 {
+  text-align: left;
+  padding: 30px;
+  margin: 20px;
+}
+
+.text1 {
+  background-color: blue;
+  height: 600px;
+  text-align: center;
+}
+
+.description1{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(124, 122, 122);
+    text-align: left;
+    padding-top: 200px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding-left: 150px;
+}
+.description_text{
+    text-align: left;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 0 150px;
+    text-transform: capitalize;
+}
+
+.image4 {
+  display: flex;
+  flex-wrap:wrap;
+  background-color: blue;
+}
+.sub_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.sub_image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    padding:0 20px;
+}
+.list{
+    text-transform: capitalize;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.list1{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.book_button1{
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius:5px ;
+}
+.book_button2{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    padding-left: 20px;
+    border: 2px groove ;
+    border-radius:5px ;
+}
+.buttons{
+    padding-bottom: 50px;
+}
+
+.aboutus_container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+  background-color: blue;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.text3 {
+  text-align: center;
+  background-color: rgb(58, 54, 54);
+  padding: 50px;
+  color: rgb(192, 175, 175);
+}
+
+.Icon_container{    
+    height: 50px;
+    width: 50px;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container{
+    width: 50%;
+    height: 50%;
+   display: flex;
+   align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-right: 80px;
+}
+
+.image_box{
+   width: 250px;
+   height: 250px;
+    display: flex;
+    padding: 20px;
+
+}
+
+.ad_container{
+    height: 450px;
+    width: 100%;
+    background-image: url('./assets/pexels-madison-inouye-1831234.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.ad_content{
+    position: absolute;
+    right: 200px;
+}
+
+.add_style{
+color: blue;
+font-size: 80px;
+}
+.add_underline{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.image_style{
+  width:550px;
+  height: 300px;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.image_style1{
+  width:550px;
+  height: 300px;
+  padding-right: 150px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.text_style{
+  color: gray;
+  font-size: large;
+  padding-top: 20px;
+  padding-left: 150px;
+}
+
+.text_style1{
+  font-weight: bold;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.text_style2{
+  text-align: left;
+  color: red;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
